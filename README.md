@@ -2,18 +2,18 @@
 
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Nix](https://img.shields.io/badge/Nix-41439A?style=for-the-badge&logo=nixos&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
 
 ---
 
 ## 📖 Sobre
 
-Este repositório contém um projeto desenvolvido para a disciplina optativa de **Tópicos Especiais em TI** do curso de Ciência da Computação. O objetivo principal é explorar tecnologias modernas de desenvolvimento e a criação de ambientes de desenvolvimento totalmente reproduzíveis.
+Este repositório contém um projeto desenvolvido para a disciplina optativa de **Tópicos Especiais em TI** do curso de Ciência da Computação. O objetivo principal é explorar tecnologias modernas para a construção de serviços de back-end.
 
 ## 🎯 Objetivo do Projeto
 
-O projeto é uma aplicação simples construída com **TypeScript** e **Node.js**. O grande diferencial é o uso do **Nix** para gerenciar o ambiente de desenvolvimento de forma declarativa. Isso garante que todos os desenvolvedores tenham exatamente as mesmas versões de ferramentas e dependências, eliminando o clássico problema de "funciona na minha máquina".
+O projeto é uma aplicação de API RESTful construída com **TypeScript** e **Node.js**. A estrutura da aplicação é gerenciada pelo **Express.js**, um framework robusto que facilita a criação de rotas, middlewares e o gerenciamento de requisições HTTP.
 
 ## 💻 Tecnologias e Ferramentas
 
@@ -21,8 +21,8 @@ O projeto é uma aplicação simples construída com **TypeScript** e **Node.js*
 | :--- | :--- |
 | **Node.js** | Ambiente de execução para o JavaScript no lado do servidor. |
 | **TypeScript**| Superset do JavaScript que adiciona tipagem estática, aumentando a robustez do código. |
-| **Nix** | Gerenciador de pacotes que define o ambiente de desenvolvimento no arquivo `.idx/dev.nix`. |
-| **Firebase Studio (IDX)** | O projeto é pré-configurado para ser executado nesta IDE, que utiliza o arquivo `dev.nix` para provisionar o ambiente automaticamente. |
+| **Express.js** | Framework web para Node.js, essencial para a criação de APIs e gerenciamento de rotas. |
+| **Firebase Studio (IDX)** | O projeto é pré-configurado para ser executado nesta IDE na nuvem, que simplifica a configuração do ambiente de desenvolvimento. |
 
 ---
 
